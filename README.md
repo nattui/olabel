@@ -1,2 +1,2 @@
-# olabel
-OLabel (Open Label) - Image Source Classification for Web Accessibility using TensorFlow
+# OLabel
+OLabel (Open Label) is a image source classification tool to improve web accessibility using TensorFlow - #PoweredByTF 2.0 Hackathon
