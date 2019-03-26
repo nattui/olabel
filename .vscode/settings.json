@@ -1,0 +1,29 @@
+{
+  // Workspace Settings --------------------------------- /
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  // Custom Spacing ------------------------------------- /
+  "editor.detectIndentation": true,
+  "[html], [css], [scss], [javascript], [json]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+  // Live Sass Settings --------------------------------- /
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "~/../css/"
+    },
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "~/../css/"
+    },
+  ],
+  "liveSassCompile.settings.generateMap": false,
+  "liveServer.settings.donotVerifyTags": true,
+}
