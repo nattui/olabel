@@ -1,4 +1,4 @@
-# OLabel
+# OLabel &middot; [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/nguyen-nhat/olabel/blob/master/LICENSE)
 OLabel (Open Label) is a image source classification tool to improve web accessibility using TensorFlow - #PoweredByTF 2.0 Hackathon
 
 ## Inspiration
