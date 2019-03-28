@@ -1,6 +1,6 @@
 {
   "name": "OLabel",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Image source classification extension to improve web accessibility",
   "icons": {
     "128": "icons/icon.png"
