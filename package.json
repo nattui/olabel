@@ -1,0 +1,23 @@
+{
+  "name": "olabel",
+  "version": "1.0.0",
+  "description": "OLabel (Open Label) is a image source classification browser extension to improve web accessibility using TensorFlow.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nguyen-nhat/olabel.git"
+  },
+  "keywords": [],
+  "author": "Nhat Nguyen and Jasmine Mai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nguyen-nhat/olabel/issues"
+  },
+  "homepage": "https://github.com/nguyen-nhat/olabel#readme",
+  "dependencies": {
+    "@tensorflow/tfjs": "^1.0.3"
+  }
+}
