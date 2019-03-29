@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/nguyen-nhat/olabel#readme",
   "dependencies": {
+    "@tensorflow-models/mobilenet": "^1.0.0",
     "@tensorflow/tfjs": "^1.0.3"
   }
 }
