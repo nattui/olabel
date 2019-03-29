@@ -7,6 +7,7 @@
  * STEP 3: Add the description as a value to the altless images
  */
 
+
 // STEP 1: Obtaining
 // arr[obj]: Hold every img object in the webpage
 const imgList = document.getElementsByTagName('img');
@@ -28,6 +29,7 @@ for (let i = 0; i < imgList.length; i++) {
 
 // STEP 2: TensorFlow
 // console.log('noAltList:', noAltList);
+
 
 // STEP 3: Append
 // For every element in noAltList, add the image classification with
