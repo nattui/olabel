@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TF MOBILENET</title>
+</head>
+
+<body>
+  <img id="img" src="cat.png">
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.0.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"></script>
+
+  <script>
+    var t0 = performance.now();
+    const img = document.getElementById('img');
+    console.log(img);
+
+    // Load the model.
+    mobilenet.load().then(model => {
+      // Classify the image.
+      model.classify(img).then(predictions => {
+        console.log('Predictions: ');
+        console.log(predictions);
+
+        var t1 = performance.now();
+        console.log("Prediction took " + (t1 - t0) + " milliseconds.");
+      });
+    });
+  </script>
+</body>
+
+</html>

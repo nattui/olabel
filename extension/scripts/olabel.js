@@ -9,9 +9,9 @@
 
 
 // STEP 1: Obtaining
-// arr[obj]: Hold every img object in the webpage
+// arr[obj: HTMLImageElement]: Hold every img object in the webpage
 const imgList = document.getElementsByTagName('img');
-// arr[[num: index, str: source]]: Hold all img sources without an alt attribute
+// arr[[num: index, obj: HTMLImageElement]]: Hold all img obj without an alt attribute
 const noAltList = [];
 
 for (let i = 0; i < imgList.length; i++) {
@@ -20,7 +20,7 @@ for (let i = 0; i < imgList.length; i++) {
   // If no alt attribute or alt value, log no alt
   if (imgList[i]['alt'] === '') {
     console.log('❌ There is NO alt attribute');
-    noAltList.push([i, imgList[i]['src']]);
+    noAltList.push([i, imgList[i]]);
   } else {
     console.log('alt:', imgList[i]['alt']);
   }
